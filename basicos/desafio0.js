@@ -11,6 +11,9 @@ function converterIdadeDias(idadeAnos) {
 }
 
 function converterIdadeAnos(idadeAnos) {
+    if(isNaN(idadeAnos)){
+        throw new Error('N~ao é um numero')
+    }
     const id_Anos = idadeAnos;
     return id_Anos;
 }
