@@ -1,0 +1,1 @@
+// FUP que leia 3 valores a,b,c e verifique se eles formam ou nÃ£o um triÃ¢ngulo. Caso os valores formem um triÃ¢ngulo, solicite a base e a altura, calcule (base * altura / 2) e escreva a Ã¡rea deste triÃ¢ngulo. Se nÃ£o formam triÃ¢ngulo escreva os valores lidos. 
