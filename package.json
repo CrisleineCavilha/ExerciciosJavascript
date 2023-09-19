@@ -1,0 +1,20 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test/**/*.test.js",  
+    "test:cov": "jest test/index.test.js --coverage",
+    "start": "nodemon index.js"
+  },
+  "author": "Crisleine",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
